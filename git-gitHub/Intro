@@ -17,12 +17,13 @@ Distributed VCS --> git
 
 git process:
 ** GOLDEN STEPS **
+Goal: local branch ---> remote master
 
-1. git checkout master --> git pull origin master (to sync local master and git master)
+1. git checkout master --> git pull origin master (to sync local master and remote master)
 2. git checkout b1 --> git rebase master (to sync local master and local b1)
 3. Before we do git add/commit --> repeat step 1 and 2 --> git commit
 4. push local b1 --> remote b1: git push origin b1
-5. create pull request (to merge remore b1 to remote master)
+5. create pull request (to merge remote b1 to remote master)
 
 
 
