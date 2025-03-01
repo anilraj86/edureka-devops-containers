@@ -1,0 +1,48 @@
+3  git version
+    4  git clone https://github.com/raushan8586/app1-project1-edureka.git
+    5  ls -l
+    6  cd app1-project1-edureka/
+    7  ls -l
+    8  git branch
+    9  git checkout master
+   10  ls -l
+   11  git log
+   12  git branch
+   13  got checkout b1
+   14  got checkout b3
+   15  git branch
+   16  git checkout b3
+   17  git checkout b1
+   18  git branch
+   19  git checkout main
+   20* ls -
+   21  git checkout master
+   22  ls -l
+   23  git pull
+   24  git branch
+   25  git pull
+   26  git branch b5 master
+   27  git branch
+   28  git checkout b5
+   29  ls -l
+   30  git log
+   31  git rebase master
+   32  git branch
+   33  vi sample.java
+   34  ls -l
+   35  git ls-files
+   36  git status
+   37  git add sample.java
+   38  git status
+   39  git log
+   40  git log --oneline
+   41  git commit -m "b5-1st-commit"
+   42  git log
+   43  git config --global user.email "raushan8586.kumar@gmail.com"
+   44  git config --global user.name "Raushan Kumar"
+   45  vi sample1.java
+   46  git add sample1.java
+   47  git commit -m "b5-2nd commit"
+   48  git log
+   49  git remote -v
+   50  git push origin b5
