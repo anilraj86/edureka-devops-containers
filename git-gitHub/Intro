@@ -30,7 +30,8 @@ Goal: local branch ---> remote master
 -------------------------------------------------------------------------------------------------------
 Folder is being tracked by git or not? -->
 ls -la --> .git directory should be present
-git status --> get putput
+
 
 ls -l --> WD
-git ls-files --> LR
+git ls-files --> SA/LR
+git status --> get output and decide (untracked file --> WD, changes to be committed --> SA, working tree clean --> LR)
