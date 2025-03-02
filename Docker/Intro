@@ -1,0 +1,5 @@
+Docker --> container engine
+we install container engine in a VM for containerization.
+
+VM --> Monolithic applications
+Containers --> Microservices applications
