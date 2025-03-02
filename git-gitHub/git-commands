@@ -1,4 +1,6 @@
-3  git version
+1st March -->  
+
+git version
     4  git clone https://github.com/raushan8586/app1-project1-edureka.git
     5  ls -l
     6  cd app1-project1-edureka/
@@ -46,3 +48,72 @@
    48  git log
    49  git remote -v
    50  git push origin b5
+
+
+2nd March --> 
+
+53  ls -l
+   54  cd app1-project1-edureka/
+   55  ls -l
+   56  rm sample2.java
+   57  ls -l
+   58  git status
+   59  git restore sample2.java
+   60  ls -l
+   61  git status
+   62  git rm sample2.java
+   63  ls -l
+   64  git ls-files
+   65  git status
+   66  git restore --staged sample2.java
+   67  git status
+   68  git ls-files
+   69  ls -l
+   70  git restore sample2.java
+   71  git status
+   72  ls -l
+   73  git ls-files
+   74  ls -l
+   75  vi app1.log
+   76  git status
+   77  vi ReadMe1st
+   78  git status
+   79  vi .gitignore
+   80  git status
+   81  git add .
+   82  git commit -m ".gitignore-file-added"
+   83  git status
+   84  vi app1.log
+   85  git status
+   86  git log --oneline
+   87  git commit --amend
+   88  git log --oneline
+   89  vi sample3.java
+   90  Z
+   91  cat sample3.java
+   92  git status
+   93  git add .
+   94  git commit -m "b5-4th-commit"
+   95  git log --oneline
+   96  git revert 5c6ed77
+   97  git log --oneline
+   98  git show 36966a9
+   99  ls -l
+  100  git log --oneline
+  101  git reset --hard da36e9e
+  102  git log --oneline
+  103  git status
+  104  ls -l
+  105  vi sample2.java
+  106  git status
+  107  git commit -a -m "sample2.java-modified"
+  108  vi sample2.java
+  109  git status
+  110  git commit -a -m "sample2.java-modifed-again"
+  111  git status
+  112  git log --onelin
+  113  git log --oneline
+  114  git diff 689cfa8 6fea0cb
+  115  git show 689cfa8
+  116  git diff 6fea0cb 689cfa8
+  117  git diff 689cfa8 b5df73f
