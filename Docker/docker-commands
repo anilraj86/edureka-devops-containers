@@ -1,0 +1,32 @@
+Installation:
+To be a root user -->
+sudo su -
+      1  apt update -y
+    2  clear
+    3  apt install docker.io -y
+    4  docker version
+    5  docker info
+
+
+
+
+
+
+  1  apt update -y
+    2  apt install docker.io -y
+    3  docker images
+    4  docker pull httpd
+    5  docker images
+    6  apt install apache2 -y
+    7  systemctl status apache2
+    8  lsof -i -P -n | grep LISTEN
+    9  docker images
+   10  docker inspect httpd
+
+  docker run -itd -p 82:80 httpd
+
+  i --> interactive
+  t --> tty terminal
+  d --> detached mode
+
+
