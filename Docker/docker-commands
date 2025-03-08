@@ -1,3 +1,28 @@
+Links:
+
+
+
+Container Engine --> Docker, Rocket, Containerd, Podman
+
+Container Orchestration Engine --> Kubernetes, Docker Swarm, Apache Mesos
+1. auto-scaling of containers
+2. auto-healing of containers
+3. auto-deployment of containers
+4. auto-load balancing of requests across all the containers
+
+Orcheatration --> Automation
+
+
+
+
+
+
+
+
+
+
+
+
 Installation:
 To be a root user -->
 sudo su -
