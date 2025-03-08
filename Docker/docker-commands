@@ -8,10 +8,6 @@ sudo su -
     5  docker info
 
 
-
-
-
-
   1  apt update -y
     2  apt install docker.io -y
     3  docker images
