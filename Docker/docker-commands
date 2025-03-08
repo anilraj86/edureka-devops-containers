@@ -29,4 +29,44 @@ sudo su -
   t --> tty terminal
   d --> detached mode
 
+docker version
+    3  apt install apache2 -y
+    4  lsof -i -P -n | grep LISTEN
+    5  docker version
+    6  docker info
+    7  clear
+    8  docker ps
+    9  docker images
+   10  docker pull httpd
+   11  docker images
+   12  docker ps
+   13  clear
+   14  docker images
+   15  docker inspect httpd
+   16  clear
+   17  docker images
+   18  docker run -itd --name webServer -p 82:80 httpd
+   19  docker ps
+   20  cd /var/www/html
+   21  ls -l
+   22  pwd
+   23  docker exec -it c6b17d6a30b7 /bin/bash
+   24  cd /usr/local/apache2/htdocs
+   25  ls -l
+   26  vi index1.html
+   27  cd /usr/local/apache2/htdocs
+   28  clear
+   29  ls -l
+   30  docker exec -it c6b17d6a30b7 /bin/bash
+   31  docker images
+   32  docker exec -it c6b17d6a30b7 /bin/bash
+   33  docker images
+   34  docker exec -it c6b17d6a30b7 /bin/bash
+   35  history
+   36  docker ps
+   37  docker exec -it c6b17d6a30b7 /bin/bash
+   38  docker ps
+   39  docker commit c6b17d6a30b7 httpd1
+   40  docker images
+
 
