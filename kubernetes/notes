@@ -1,4 +1,4 @@
-4 main K8s objects:
+4 main K8s objects / resources:
 1. Pod --> actual applications are depoyed
 2. Replica Set --> To maintain a stable number of pods
 3. Deployment --> Deploy without DOWNTIME, Rollbacks (deployment history)
