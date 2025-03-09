@@ -2,6 +2,18 @@ Links:
 Dockerfile
 https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
 
+Docker compose
+
+Installation:
+Install latest version of docker-compose: https://github.com/docker/compose/releases/
+$ sudo apt remove docker-compose --> optional, in case, you need to remove docker-compose from ubuntu VM
+
+$ wget https://github.com/docker/compose/releases/download/v2.24.1/docker-compose-linux-x86_64
+$ chmod +x docker-compose-linux-x86_64
+$ sudo mv docker-compose-linux-x86_64 /usr/bin/docker-compose
+$ docker-compose --version
+Docker Compose version v2.24.1
+
 
 
 Container Engine --> Docker, Rocket, Containerd, Podman
