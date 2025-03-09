@@ -1,3 +1,6 @@
+Docker run
+https://docs.docker.com/reference/cli/docker/container/run/
+
 Links:
 Dockerfile
 https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
@@ -14,7 +17,7 @@ $ sudo mv docker-compose-linux-x86_64 /usr/bin/docker-compose
 $ docker-compose --version
 Docker Compose version v2.24.1
 
-
+https://github.com/docker/awesome-compose
 
 Container Engine --> Docker, Rocket, Containerd, Podman
 
