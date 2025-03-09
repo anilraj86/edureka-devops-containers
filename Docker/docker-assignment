@@ -1,0 +1,17 @@
+create EC2 instance
+ssh
+become root user --> sudo su -
+apt update -u
+apt install apache2 -y
+open port 80 in SG
+access this from browser --> provide url
+
+apt install docker.io -y
+
+docker pull httpd
+
+docker images
+
+docker run -itd -p 82:80 
+open port 82 in SG
+access this from browser --> provide url
