@@ -18,5 +18,9 @@ kube-proxy --> core networking component in the cluster
   c. ClusterIP --> For the communication between front-end pods and backend pods
 
 
+Front-end Pods --> httpd/apache2, nginx, webservers --> NodePort & LoadBalancer (multiple nodes)
+Backend Pods --> Database servers, Pods wihch are not public facing --> ClusterIP
+
+
 Kubernetes uses "containerd" as the container engine
 
