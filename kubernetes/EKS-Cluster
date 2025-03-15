@@ -3,7 +3,8 @@ EKS --> AWS
 Requirement of 3 CLIs:
 1. aws cli --> aws command line
 2. kubectl --> common for kubernetes
-3. eksctl --> specific to AWS EKS --> eksctl create cluster
+3. eksctl --> specific to AWS EKS --> https://eksctl.io/installation/
+
 
 
 eksctl create cluster   --> Master node (HA) + 1 Nodegroup (2 worker nodes)
