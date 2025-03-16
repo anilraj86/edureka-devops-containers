@@ -1,6 +1,13 @@
 
 https://github.com/raushan8586/pipeline1.git
 
+Docker-Job
+sudo docker build /var/lib/jenkins/workspace/Docker-job/ -t httpd1
+
+sudo docker rm -f $(sudo docker ps -a -q)
+sudo docker run -itd -p 82:80 httpd1
+
+plugin --> build pipeline
 
 
 jenkins ALL=(ALL) NOPASSWD: ALL    --> Add this line to sudoers
