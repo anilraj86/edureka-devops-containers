@@ -100,6 +100,10 @@ docker version
    39  docker commit c6b17d6a30b7 httpd1
    40  docker images
 
+-----------
+Dockerfile
+docker build . -t <new-image>    ------> builds the image
+
 docker volume ls
    49  docker volume create web-vol
    50  docker volume ls
