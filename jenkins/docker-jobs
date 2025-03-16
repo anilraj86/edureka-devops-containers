@@ -1,0 +1,6 @@
+
+https://github.com/raushan8586/pipeline1.git
+
+
+
+jenkins ALL=(ALL) NOPASSWD: ALL    --> Add this line to sudoers
