@@ -12,9 +12,9 @@ LB
 
 dns --> LB
 
-Micro-services1 --> Container1 --> LB1
-Micro-services2 --> Container2 --> LB2
-Micro-services3 --> Container3 --> LB3
+Micro-services1 --> Container1 --> LB1 --> https://www.makemytrip.com/flights/
+Micro-services2 --> Container2 --> LB2 --> https://www.makemytrip.com/railways/
+Micro-services3 --> Container3 --> LB3 --> https://www.makemytrip.com/cabs/
 
 Not recommended
 
