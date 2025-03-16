@@ -11,3 +11,10 @@ plugin --> build pipeline
 
 
 jenkins ALL=(ALL) NOPASSWD: ALL    --> Add this line to sudoers
+
+Automatic triggering of pipeline
+
+Job --> check a box --> gitscm polling
+
+GitHub Repo --> settings --> webhook
+http://15.207.112.228:8080/github-webhook/
