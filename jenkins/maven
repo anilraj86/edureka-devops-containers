@@ -1,0 +1,36 @@
+Installation
+---------------
+
+https://maven.apache.org/download.cgi
+
+4  wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
+    5  ls -l
+    6  tar xvzf apache-maven-3.9.9-bin.tar.gz
+    7  ls -l
+    8  cd apache-maven-3.9.9/
+    9  ls -l
+   10  cd ..
+   11  ls -l
+   12  mv apache-maven-3.9.9 /opt/
+   13  ls -l
+   14  cd /opt
+   15  ls -l
+   16  mv apache-maven-3.9.9 maven
+   17  mvn -version
+   18  ls -l
+   19  cd mav
+   20  cd  maven/
+   21  ls -l
+   22  pwd
+   23  M3_HOME='/opt/maven'
+   24  echo $PATH
+   25  PATH="$M3_HOME/bin:$PATH"
+   26  echo $PATH
+   27  mvn -version
+
+
+   https://www.eclipse.org/downloads/packages/installer
+   https://mvnrepository.com/artifact/junit/junit/4.13.2
+
+   https://github.com/jenkins-docs/simple-java-maven-app
+   
