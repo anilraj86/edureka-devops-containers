@@ -1,3 +1,4 @@
+Note: run maven job in a bigger nodes with minimum 2 Cores, 4 GB RAM --> t2.medium instance type
 Installation
 ---------------
 
