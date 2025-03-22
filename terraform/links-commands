@@ -1,0 +1,14 @@
+Innstallation:
+https://releases.hashicorp.com/terraform/1.11.2/terraform_1.11.2_windows_386.zip
+
+environment variables
+
+
+Visual Studio Code
+https://code.visualstudio.com/download
+
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+
