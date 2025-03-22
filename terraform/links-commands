@@ -7,6 +7,8 @@ environment variables
 Visual Studio Code
 https://code.visualstudio.com/download
 
+https://registry.terraform.io/browse/providers
+
 terraform init
 terraform plan
 terraform apply
