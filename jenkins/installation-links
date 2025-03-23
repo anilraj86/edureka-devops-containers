@@ -11,38 +11,8 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" https://pkg.jenki
 sudo apt-get update
 sudo apt-get install jenkins
 
-Maven
------
-https://maven.apache.org/download.cgi
-
-wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.tar.gz
-48  wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
-
-   49  ls -l
-   50  tar xvzf apache-maven-3.9.6-bin.tar.gz
-   51  ls -l
-   52  mv apache-maven-3.9.6 /opt/
-   53  cd /opt
-   54  ls -l
-   55  mv apache-maven-3.9.6 maven
-   56  ls -l
-   57  mvn -version
-   58  M3_HOME='/opt/maven'
-   60  echo $PATH
-   61  PATH="$M3_HOME/bin:$PATH"
-   62  export PATH
-   63  echo $PATH
-   64  mvn -version
-   65  history
-
-Sample Maven Project--> 
-https://github.com/jenkins-docs/simple-java-maven-app.git
-
-https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
-
-Goals
-clean package
-
 
 jenkinsfile
 https://www.jenkins.io/doc/book/pipeline/syntax/
+
+
