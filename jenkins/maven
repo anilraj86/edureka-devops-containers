@@ -34,4 +34,11 @@ https://maven.apache.org/download.cgi
    https://mvnrepository.com/artifact/junit/junit/4.13.2
 
    https://github.com/jenkins-docs/simple-java-maven-app
+
+https://maven.apache.org/download.cgi
+
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
+Goals
+clean package
    
