@@ -1,0 +1,22 @@
+1. Download the code from https://s3.amazonaws.com/aws-codedeploy-useast-1/samples/latest/SampleApp_Linux.zip
+2. Create a Repo in codecommit
+3. clone the repo in cloudshell
+4. upload the code (zipped) in cloudshell and move to cloned repo and unzip. Have only required files (remove zipped file)
+
+5. create policy and then create role for s3-get-list
+6. create ec2 instance, provide tag, which will be used in the code deployment group
+7. use user data to install codeDeploy agent
+#!/bin/bash
+sudo yum -y update
+sudo yum install -y ruby
+sudo yum install -y aws-cli
+sudo yum install wget
+sudo cd /home/ec2-user
+sudo chmod +x ./install
+sudo wget https://aws-codedeploy-ap-south-1.s3.amazonaws.com/latest/install
+sudo ./install auto
+
+8. Create an IAM role for CodeDeploy
+9. Create Deployment group, use aws systems manager to install codeDeploy Agent. Provide right tag
+
+10. create pipeline. Provide correct codecommit and codedeploy
